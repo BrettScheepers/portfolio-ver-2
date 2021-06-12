@@ -21,7 +21,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 html, body, #root {
@@ -70,9 +70,10 @@ ul {
   min-height: 100%;
   position: relative;
   background-color: var(--black);
-  display: grid;
-  grid-template-rows: 10vh auto;
-  grid-template-columns: 1fr;
+  /* display: grid;
+  grid-template-rows: 60px auto;
+  grid-template-columns: 1fr; */
+  overflow-x: hidden;
   /* background-image: url(./components/images/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
