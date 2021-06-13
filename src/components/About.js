@@ -72,6 +72,7 @@ const About = () => {
                     </ul>
                   <li>React</li>
                     <ul className="specific-skills-list">
+                      <li><BiChevronRight />Context Api</li>
                       <li><BiChevronRight />React Routing</li>
                       <li><BiChevronRight />Framer Motion Animations</li>
                     </ul>
@@ -88,7 +89,7 @@ const About = () => {
                 variants={childVariant}
               >
                 <p>
-                I am a Junior Developer. I have experience creating websites using my knowledge in HTML, CSS and Javascript. I can build a static landing page with a fantastic UI that will look appealing to any eye that falls upon it. I can enhance the site with Javascript to make the page dynamic. I can build that same project using the very popular front-end framework, React.
+                I am a junior developer and I began my tutelage in July of 2020. I started learning through the coding bootcamp CodeYourFuture Cape Town and learnt the fundementals of HTML, CSS and Javascript. Learning front-end web development has been a wonderful journey this past year. For the first time I felt that I was taking my education into my own hands I was developing skills that could make me valuable to people. I loved learning all the intricacies of this field and I enjoy sharpening my skills day by day.
                 </p>
                 <p>
                 I have a passion for learning technology and improving my skillset. I tackle everything that I do with the mindset of constant improvement and becoming the most capable developer that I can be. Any technology that I undertake that I am not proficient at I will strive to master in the most efficient time that I possibly can.
