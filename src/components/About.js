@@ -75,6 +75,10 @@ const About = () => {
                       <li><BiChevronRight />React Routing</li>
                       <li><BiChevronRight />Framer Motion Animations</li>
                     </ul>
+                  <li>Git/Github</li>
+                    <ul className="specific-skills-list">
+                      <li><BiChevronRight />Relevant Git Skills</li>
+                    </ul>
                 </ol>
               </motion.div>
             </div>
