@@ -4,6 +4,7 @@ import { FaGithub } from 'react-icons/fa'
 import { FaGoogle } from 'react-icons/fa'
 import TVMaze from './images/tv.jpg'
 import Country from './images/countries.jpg'
+import Audiophile from './images/audiophile.jpg'
 
 const mainVariant = {
     hidden: {
@@ -84,6 +85,20 @@ const Portfolio = () => {
                 <div className="portfolio-links">
                   <a href="https://github.com/BrettScheepers/countries-react" className="portfolio-link" target="_blank" rel="noreferrer" ><FaGithub/></a>
                   <a href="https://cyf-brettscheepers-countries-react.netlify.app/" target="_blank" rel="noreferrer" className="portfolio-link"><FaGoogle/></a>
+                </div>
+              </motion.div>
+              <motion.div className="portfolio-card"
+                variants={childVariant}
+              >
+                <div className="portfolio-img">
+                  <img src={Audiophile} alt=""/>
+                </div>
+                <div className="portfolio-name">
+                  <h4 className="classic-font">React Front-End <br /> E-Commorce Website</h4>
+                </div>
+                <div className="portfolio-links">
+                  <a href="https://github.com/BrettScheepers/audiophile" className="portfolio-link" target="_blank" rel="noreferrer" ><FaGithub/></a>
+                  <a href="https://audiophile-brett-scheepers.netlify.app/" target="_blank" rel="noreferrer" className="portfolio-link"><FaGoogle/></a>
                 </div>
               </motion.div>
             </div>
