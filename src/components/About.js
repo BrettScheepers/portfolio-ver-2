@@ -76,6 +76,12 @@ const About = () => {
                       <li><BiChevronRight />React Routing</li>
                       <li><BiChevronRight />Framer Motion Animations</li>
                     </ul>
+                  <li>Node Js</li>
+                    <ul className="specific-skills-list">
+                      <li><BiChevronRight />Express</li>
+                      <li><BiChevronRight />Creating an API</li>
+                      <li><BiChevronRight />CRUD Operations</li>
+                    </ul>
                   <li>Git/Github</li>
                     <ul className="specific-skills-list">
                       <li><BiChevronRight />Relevant Git Skills</li>

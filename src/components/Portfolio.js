@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa'
 import { FaGoogle } from 'react-icons/fa'
 import TVMaze from './images/tv.jpg'
 import Country from './images/countries.jpg'
-import Audiophile from './images/audiophile.jpg'
+import Audiophile from './images/audiophile2.jpg'
 
 const mainVariant = {
     hidden: {
@@ -63,14 +63,14 @@ const Portfolio = () => {
                 variants={childVariant}
               >
                 <div className="portfolio-img">
-                  <img src={TVMaze} alt=""/>
+                  <img src={Audiophile} alt=""/>
                 </div>
                 <div className="portfolio-name">
-                  <h4 className="classic-font">Javascript TVMaze <br /> API Project</h4>
+                  <h4 className="classic-font">React Front-End E-Commerce Website</h4>
                 </div>
                 <div className="portfolio-links">
-                  <a href="https://github.com/BrettScheepers/tv-show-dom-project" className="portfolio-link" target="_blank" rel="noreferrer" ><FaGithub /></a>
-                  <a href="https://cyf-brettscheepers-tv.netlify.app/" className="portfolio-link" target="_blank" rel="noreferrer" ><FaGoogle /></a>
+                  <a href="https://github.com/BrettScheepers/audiophile" className="portfolio-link" target="_blank" rel="noreferrer" ><FaGithub/></a>
+                  <a href="https://audiophile-brett-scheepers.netlify.app/" target="_blank" rel="noreferrer" className="portfolio-link"><FaGoogle/></a>
                 </div>
               </motion.div>
               <motion.div className="portfolio-card"
@@ -91,14 +91,14 @@ const Portfolio = () => {
                 variants={childVariant}
               >
                 <div className="portfolio-img">
-                  <img src={Audiophile} alt=""/>
+                  <img src={TVMaze} alt=""/>
                 </div>
                 <div className="portfolio-name">
-                  <h4 className="classic-font">React Front-End <br /> E-Commorce Website</h4>
+                  <h4 className="classic-font">Javascript TVMaze <br /> API Project</h4>
                 </div>
                 <div className="portfolio-links">
-                  <a href="https://github.com/BrettScheepers/audiophile" className="portfolio-link" target="_blank" rel="noreferrer" ><FaGithub/></a>
-                  <a href="https://audiophile-brett-scheepers.netlify.app/" target="_blank" rel="noreferrer" className="portfolio-link"><FaGoogle/></a>
+                  <a href="https://github.com/BrettScheepers/tv-show-dom-project" className="portfolio-link" target="_blank" rel="noreferrer" ><FaGithub /></a>
+                  <a href="https://cyf-brettscheepers-tv.netlify.app/" className="portfolio-link" target="_blank" rel="noreferrer" ><FaGoogle /></a>
                 </div>
               </motion.div>
             </div>
